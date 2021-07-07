@@ -1,0 +1,195 @@
+body
+{
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+    width: 100%;
+    height: 700px;
+    background: url("basketball.jpg")  no-repeat ;      /*为页面整体插入背景图片*/
+    background-size: 100%;      /*铺满*/
+}
+a
+{
+    text-decoration: none;      /*设置整体的字体样式*/
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+}
+.all
+{
+    height: 100%;
+}
+.left
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: 100%;
+}
+.right
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 79%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.4);     /*设置背景透明度*/
+}
+.right1
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    height: 95%;
+    margin-top: 14px;
+    margin-left: 16px;
+}
+.right2
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 47%;
+    height: 95%;
+    margin-top: 14px;
+    margin-left: 30px;
+}
+.lebron     /*设置图片大小*/
+{
+    height: 40%;
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+.achievement
+{
+    height: 40%;
+    width: 55%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 7px;
+}
+.name
+{
+    height: 10%;
+    width: 96%;
+    vertical-align: top;
+}
+.ull
+{
+    margin-top: 24px;
+    margin-left: -14px;
+    width: 100%;
+}
+.lii
+{
+    display: block;
+    height: 36px;
+    width: 100%;
+}
+.lii a
+{
+    font-size: 16px;
+}
+.one
+{
+    font-weight: bold;
+    font-size: 24px;
+}
+.two
+{
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 14px;
+    float: right;
+}
+.durant     /*设置图片大小*/
+{
+    height: 40%;
+    width: 39%;
+    display: inline-block;
+    vertical-align: top;
+}
+.t
+{
+    margin-top: 14px;
+    margin-bottom: 14px;
+    height: 15px;
+    width: 100%;
+}
+.t a
+{
+    font-weight: bold;
+    font-size: 16px;
+}
+.tv1    /*设置视频播放器大小*/
+{
+    height: 52%;
+    width: 99%;
+    margin-top: 7px;
+}
+.tv2
+{
+    height: 52%;
+    width: 99%;
+    margin-top: 7px;
+}
+.up
+{
+    height: 32%;
+}
+.tit
+{
+    height: 50%;
+    width: 70%;
+    margin-top: -14px;
+    margin-left: 50px;
+}
+.tit p
+{
+    font-size: 45px;
+}
+.bottem
+{
+    height: 60%;
+}
+.map
+{
+    width: 100%;
+}
+.map1
+{
+    width: 100%;
+}
+.title
+{
+    display: block;
+    height: 63px;
+    width: 70%;
+}
+.title a
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+}
+.map2
+{
+    display: block;
+    height: 63px;
+    width: 70%;
+    
+}
+.map2 a
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+}
+.map2 a:hover
+{
+    font-size: 27px;    /*鼠标悬停调整字体样式*/
+}
+.map-name
+{
+    line-height: 63px;
+    margin: 20px;
+}

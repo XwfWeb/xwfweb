@@ -1,0 +1,183 @@
+body
+{
+    font-family:      Georgia, "Times New Roman", Times, serif;
+    font-size:        small;
+    margin:           0px;
+    width: 100%;
+    height: 700px;
+    background: url("music.jpg")  no-repeat;    /*为页面整体插入背景图片*/
+    background-color: rgba(255, 255, 255, 0.4);     /*设置透明度*/
+    background-size: 100%;      /*铺满*/
+}
+a
+{
+    text-decoration: none;      /*设置整体的字体样式*/
+    color: #333;
+    font-size: 16px;
+    font-weight: normal;
+}
+.all
+{
+    height: 100%;
+}
+.left
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    height: 100%;
+}
+.right
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 78%;
+    height: 100%;
+    background: url("right.jpg")  no-repeat;    /*插入区域背景图片*/
+    background-size: 1200px 850px;      /*设置图片大小*/
+}
+.up
+{
+    height: 40%;
+}
+.bottem
+{
+    height: 60%;
+}
+.map
+{
+    width: 100%;
+}
+.map1
+{
+    width: 100%;
+}
+.title
+{
+    display: block;
+    height: 63px;
+    width: 70%;
+    text-align: end;
+}
+.title a
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+}
+.map2
+{
+    display: block;
+    height: 63px;
+    width: 70%;
+    
+}
+.map2 a
+{
+    font-size: 20px;
+    font-weight: bold;
+    color: #777;
+}
+.map2 a:hover
+{
+    font-size: 27px;
+}
+.map-name
+{
+    line-height: 63px;
+    margin: 20px;
+}
+#table2     /*设置表格的整体大小*/
+{
+    width: 1000px;
+    margin-left: 100px;
+    margin-top: -7px;
+}
+#up
+{
+    border-bottom: 1px solid #ccc;;
+    height: 45px;
+}
+.up2
+{
+    display: inline-block;
+    float: left;
+    height: 45px;
+    line-height: 10px;
+    margin-left: -40px;
+}
+.up2 h3
+{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    color: #106f66;
+}
+.up22
+{
+    font-size: 12px;
+    display: inline-block;
+    float: right;
+    white-space: nowrap;
+    height: 18px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+.name a:hover
+{
+    color:crimson ;     /*鼠标悬停字体样式改变*/
+    text-decoration: crimson;
+    text-decoration: underline;
+}
+.er:hover
+{
+    color:crimson ;
+    text-decoration: crimson;
+    text-decoration: underline;
+}
+#down1
+{
+    margin-top: 17px;
+}
+#down2
+{
+    line-height: 2.0;
+    font-size: 14px;
+}
+.tableone p
+{
+    line-height: 2.0;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.Table
+{
+    border: solid #f1efe3;
+    border-width: 1px 0px 0px 1px;
+}
+.td1
+{
+    border: solid #f1efe3;
+    border-width: 0px 1px 1px 0px;
+    padding: 2px 10px;
+    height: 32px;
+    width: 788px;
+}
+.td
+{
+    border: solid #f1efe3;
+    border-width: 0px 1px 1px 0px;
+    padding: 2px 10px;
+    height: 32px;
+    width: 788px;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+.music      /*设置播放器的位置*/
+{
+    margin-bottom: -15px;
+    margin-top: -14px;
+}
+

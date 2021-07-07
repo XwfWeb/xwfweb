@@ -1,0 +1,275 @@
+body
+{
+    background-color: #FFF;
+    font-size: 12px;
+    line-height: 120%;
+    color: #1d2d45;
+}
+#table      /*设置表格整体大小*/
+{
+    width: 75%;
+    text-align: center;
+    border-collapse: separate;
+    border-spacing: 1px;
+    margin: 20px auto 40px auto;
+    margin-top: -14px;
+}
+table{
+    border-collapse: collapse;
+}
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td{
+    display: table-cell;
+    vertical-align: inherit;
+}
+.one
+{
+    width: 100%;
+    padding-top: 1px;
+    font-family: ΢���ź�;
+    margin: 0px auto;
+}
+.two
+{
+    border-bottom:dashed #87CEFA 5px;
+    color: #666;
+    text-align: center;
+    height: 43px;
+    overflow: hidden;
+    background-size: 165px auto;
+}
+.one
+{
+    margin-top: 15px;
+    height: 77px;
+}
+.HeadPortrait
+{
+    float: left;
+    margin-top: 15px;
+    width: 75px;
+    height: 75px;;
+}
+.name
+{
+    margin-top: 28px;
+    margin-left: 75px;
+    width: 99px;
+    height: 30px;
+}
+.name a
+{
+    font-size: 28px;
+}
+.two h1
+{
+    text-align: left;
+    font-size: 22px;
+    font-family: "Microsoft Yahei";
+    font-weight: normal;
+    padding-bottom: 14px;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.back
+{
+    float: right;
+    font-size: 14px;
+    margin-top: -20px;
+    text-decoration: none;
+}
+.back:hover     /*鼠标悬停字体变色*/
+{
+    color: red;
+}
+.three
+{
+    text-align: left;
+    padding: 30px 65px 15px 35px;
+}
+.four
+{
+    line-height: 25px;
+    text-align: left;
+}
+.four p
+{
+    margin: 0px;
+    width: 616px;
+}
+.group
+{
+    width: 100%;
+    margin: 0 0 2px 0;
+    border: 0 none;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.left
+{
+    margin-top: 10px;
+    margin-bottom: 14px;
+    text-align: left;
+}
+.group-name
+{
+    font-size: 16px;
+    font-family: ����;
+    font-weight: bold;
+}
+.question
+{
+    width: 100%;
+    margin: 0 auto 10px auto;
+    border: 1px solid #cce8ff;
+    padding: 1px;
+    background-color: #FFFFFF;
+}
+.up
+{
+    font-family: verdana;
+    font-size: 12px;
+    font-weight: bold;
+    background-color: #EEF6FF;
+    text-align: left;
+    padding: 6px 10px;
+}
+.asterisk
+{
+    color: red;
+    font-size: 9px;
+    font-family: verdana;
+    margin-right: 5px;
+}
+.answer
+{
+    padding: 11px 24px 16px 37px;
+    text-align: left;
+}
+.answers-list
+{
+    margin: 0%;
+    padding: 0%;
+}
+.alter
+{
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 0.5em 0.5em;
+}
+.radio
+{
+    vertical-align: top !important;
+    margin-top: 2px;
+}
+.txt
+{
+    vertical-align: middle;
+}
+.answers
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.hide
+{
+    font-weight: normal;
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+.empty
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin-left: 1em;
+}
+.group2
+{
+    width: 100%;
+    margin: 0 0 2px 0;
+    border: 0 none;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+.question2
+{
+    font-family: verdana;
+    font-size: 12px;
+    background-color: #EEF6FF;
+    text-align: left;
+    padding: 6px 10px;
+}
+.question2 p
+{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal;
+}
+strong
+{
+    font-style: normal;
+    font-weight: normal;
+}
+.answer1
+{
+    margin-left: 0%;
+    padding-left: 0%;
+}
+.answer2
+{
+    list-style-type: none;
+    text-align: left;
+    margin: 0% 0% 0.5em 0.5em;
+}
+.answer2 label
+{
+    padding: 0.3em 1em 0% 0%;
+}
+.answer2 span
+{
+    padding: 0.3em 0% 0% 1em;
+    display: table-cell;
+}
+.group3
+{
+    width: 100%;
+    margin: 0;
+    padding: 1px;
+    text-align: center;
+    border: 1px solid #cde7ff;
+}
+.button
+{
+    text-align: center;
+    width: 100%;
+    background-color: #EEF6FF;
+}
+.ui-button
+{
+    border: 1px solid #aed0ea;
+    font-weight: bold;
+    color: #0070a3;
+    padding: 0;
+    margin-right: .1em;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    border-top-left-radius: 6px;
+}
+.ui-button-text
+{
+    padding: .4em 1em;
+    display: block;
+    line-height: 1.4;
+    font-weight: bold;
+    color: #0070a3;
+}
